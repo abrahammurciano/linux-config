@@ -1,0 +1,17 @@
+indentAfterItems:
+    answers: 1
+
+itemNames:
+    Item: 1
+
+indentRules:
+    item: "\t"
+    Item: "\t"
+
+lookForAlignDelims:
+   tabular: 
+      alignDoubleBackSlash: 0
+   align: 
+      alignDoubleBackSlash: 0
+   align*: 
+      alignDoubleBackSlash: 0

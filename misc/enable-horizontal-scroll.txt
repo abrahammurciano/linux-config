@@ -1,0 +1,3 @@
+# Append the following line to /etc/profile to enable horizontal scrolling on the Lenovo Ideapad 330s
+# Horizontal scroll
+(sleep 10 && xinput set-prop 12 303 1)&

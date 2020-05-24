@@ -1,0 +1,13 @@
+\documentclass{article}
+
+\usepackage{tikz}
+\tikzstyle{double_border} = [draw, double, double distance=2pt]
+
+\begin{document}
+
+\begin{tikzpicture}
+	\node[double_border] (a) at (0,0) {A};
+	\node[double_border] (b) at (1,0) {B} edge (a);
+\end{tikzpicture}
+
+\end{document}

@@ -1,4 +1,4 @@
-
+#!/bin/bash
 if [ -z "$(pgrep spotify)" ]
 then
 	env LD_PRELOAD=/usr/lib/spotify-adblock.so spotify &
